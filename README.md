@@ -43,26 +43,33 @@ Followings are my board and firmware settings.
 - Connect the nodeMCU board to PC (Maybem you need to install USB-to-Serial driver)
 - NodeMCU Flashing tool (select 32bit or 64bit according to your windwos) [https://github.com/nodemcu/nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher)
 
-## 5.Download Micropython firmware using Flashing tool
+## 5. Download Micropython firmware using Flashing tool
 - run 'ESP8266Flasher.exe'
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run1.png" width="400">
 
 - Config -> Select firmware
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run2.png" width="400">
 
 - Select firware file (addres: 0x00000 [default setting])
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run4.png" width="400">
 
 - Click 'Flash(F)' --> Start download
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run5.png" width="400">
 
 - Reset the nodeMCU board after finishing download
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run7.png" width="400">
 
-## 6.Connect serial terminal
+## 6. Connect serial terminal
 - When you connect serial terminal, you can see following result.
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run10.png" width="400">
 
 ## 7. Enjoy Python on embedded system (NodeMCU)
 - Now, you can use mircopyhon on NodeMCU.
+
 <img src="/00_ReadMe/nodeMCU_flashing_tool_run11.png" width="400">
