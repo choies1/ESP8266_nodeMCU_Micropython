@@ -14,7 +14,7 @@ Followings are my board and firmware settings.
 ## 2. Pin Map
 ### nodeMCU Board & ESP8266 Pin Map
 
-![nodeMCU Board Pin Map](./00_ReadMe/LoLin_V3_NodeMCU_Pinout.png)
+<img src="/00_ReadMe/LoLin_V3_NodeMCU_Pinout.png" width="400">
 
 ### Summary: NodeMCU Board, ESP8266 IO Map
 
@@ -67,9 +67,9 @@ Followings are my board and firmware settings.
 ## 6. Connect serial terminal
 - When you connect serial terminal, you can see following result.
 
-<img src="/00_ReadMe/nodeMCU_flashing_tool_run10.png" width="400">
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run10.png" width="600">
 
 ## 7. Enjoy Python on embedded system (NodeMCU)
 - Now, you can use mircopyhon on NodeMCU.
 
-<img src="/00_ReadMe/nodeMCU_flashing_tool_run11.png" width="400">
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run11.png" width="600">
