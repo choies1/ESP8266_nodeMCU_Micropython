@@ -5,7 +5,7 @@ This is my Micropython test code for nodeMCU(ESP8266-based)
 
 Followings are my board and firmware settings.
 
-## 1. Board:
+## 1. Board
 
 [nodeMCU(LoLin)](http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html)
 
