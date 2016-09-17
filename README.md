@@ -7,7 +7,7 @@ Followings are my board and firmware settings.
 
 ## 1. Board: [nodeMCU(LoLin)](http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html)
 
-![nodeMCU Image](/00_ReadMe/nodeMCU_LoLin_v3.png)
+![nodeMCU Image](/00_ReadMe/nodeMCU_LoLin_v3_small.png)
 
 ## 2. Pin Map
 ### nodeMCU Board & ESP8266 Pin Map
