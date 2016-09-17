@@ -14,7 +14,7 @@ Followings are my board and firmware settings.
 ## 2. Pin Map
 ### nodeMCU Board & ESP8266 Pin Map
 
-<img src="/00_ReadMe/LoLin_V3_NodeMCU_Pinout.png" width="400">
+<img src="/00_ReadMe/LoLin_V3_NodeMCU_Pinout.png" width="600">
 
 ### Summary: NodeMCU Board, ESP8266 IO Map
 
@@ -37,7 +37,7 @@ Followings are my board and firmware settings.
 - Visit Micropython Firmware site [https://micropython.org/download/#esp8266](https://micropython.org/download/#esp8266)
 - Select the latest stabel version
 (ex. esp8266-20160909-v1.8.4.bin (latest))
-<img src="/00_ReadMe/micropython_esp8266_download.png" width="400">
+<img src="/00_ReadMe/micropython_esp8266_download.png" width="600">
 
 ## 4. Download NodeMCU Flasher (Firmware Downloader)
 - Connect the nodeMCU board to PC (Maybem you need to install USB-to-Serial driver)
