@@ -37,7 +37,7 @@ Followings are my board and firmware settings.
 - Visit Micropython Firmware site [https://micropython.org/download/#esp8266](https://micropython.org/download/#esp8266)
 - Select the latest stabel version
 (ex. esp8266-20160909-v1.8.4.bin (latest))
-<img src="/00_ReadMe/micropython_esp8266_download.png" width="600">
+<img src="/00_ReadMe/micropython_esp8266_download.png" width="800">
 
 ## 4. Download NodeMCU Flasher (Firmware Downloader)
 - Connect the nodeMCU board to PC (Maybem you need to install USB-to-Serial driver)
