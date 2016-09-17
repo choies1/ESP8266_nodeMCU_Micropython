@@ -1,23 +1,22 @@
 # ESP8266_nodeMCU_Micropython
 Micropython code for nodeMCU(ESP8266 board)
 
-This is my test code for nodeMCU-based ESP8266
+This is my Micropython test code for nodeMCU(ESP8266-based)
 
 Followings are my board and firmware settings.
 
-## 1. Board: [WeMos D1](http://www.wemos.cc/wiki/doku.php?id=en:d1)
+## 1. Board: [nodeMCU(LoLin)](http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html)
 
-![WeMoS D1 Image](/00_ReadMe/WeMoS_D1_Board.png)
-
+![nodeMCU Image](/00_ReadMe/nodeMCU_LoLin_v3.png)
 
 ## 2. Pin Map
-### WeMos D1 Board & ESP8266 Pin Map
+### nodeMCU Board & ESP8266 Pin Map
 
-![WeMoS D1 Pin Map](./00_ReadMe/WeMoS_D1_Pin_Map.png)
+![nodeMCU Board Pin Map](./00_ReadMe/LoLin_V3_NodeMCU_Pinout.png)
 
 ### ESP8266 & NodeMCU IO Map
 
-![ESP8266 & Lua Pin Map](./00_ReadMe/ESP8266_Lua_Pin_Map.png)
+![ESP8266 & NodeMCU Pin Map](./00_ReadMe/ESP8266_Lua_Pin_Map.png)
 
 ### Summary: WeMos D1 Board, ESP8266 & NodeMCU IO Map Map
 
@@ -53,6 +52,3 @@ Followings are my board and firmware settings.
 
 ## 5.ESPlorer (NodeMCU IDE)
 - Download and install ESPlorer in [http://www.14core.com/downloads-2/](http://www.14core.com/downloads-2/)
-
-
-
