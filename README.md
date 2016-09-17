@@ -25,10 +25,10 @@ Followings are my board and firmware settings.
 | D2      | GPIO 04  | GPIO |
 | D3      | GPIO 00  | GPIO, Flash |
 | D4      | GPIO 02  | GPIO, Built-in LED, TXD1|
-| D5      | GPIO 14  | GPIO |
-| D6      | GPIO 12  | GPIO |
-| D7      | GPIO 13  | GPIO, RXD2|
-| D8      | GPIO 15  | GPIO, TXD2|
+| D5      | GPIO 14  | GPIO, SPI_CLK |
+| D6      | GPIO 12  | GPIO, SPI_MISO|
+| D7      | GPIO 13  | GPIO, RXD2, SPI_MOSI|
+| D8      | GPIO 15  | GPIO, TXD2, SPI_CS|
 | D9      | GPIO 03  | GPIO, RXD0|
 | D10     | GPIO 01  | GPIO, TXD0|
 | A0      | A0       | Analog Input |
