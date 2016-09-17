@@ -19,7 +19,7 @@ Followings are my board and firmware settings.
 ### Summary: NodeMCU Board, ESP8266 IO Map
 
 | nodeMCU Pin| ESP8266 Pin (GPIO)| Function |
-| ------- | -----:  |-----:|
+| --------|-------|-----|
 | D0      | GPIO 16  | GPIO |
 | D1      | GPIO 05  | GPIO |
 | D2      | GPIO 04  | GPIO |
