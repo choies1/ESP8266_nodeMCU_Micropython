@@ -33,20 +33,36 @@ Followings are my board and firmware settings.
 | D10     | GPIO 01  | GPIO, TXD0|
 | A0      | A0       | Analog Input |
 
-## 3. Firmware
-### Download 1
-- 'nodemcu\_float\_0.9.6-dev\_20150704.bin' in
-[NodeMCU Firwware](https://github.com/nodemcu/nodemcu-firmware/releases)
-- Baudrate: 9600bps
+## 3. Downaload Micropython Firmware
+- Visit Micropython Firmware site [https://micropython.org/download/#esp8266](https://micropython.org/download/#esp8266)
+- Select the latest stabel version
+(ex. esp8266-20160909-v1.8.4.bin (latest))
+<img src="/00_ReadMe/micropython_esp8266_download.png" width="400">
 
-### Download 2
-- Online build in [http://nodemcu-build.com/](http://nodemcu-build.com)
-- You can select modules and receive it from e-mail.
+## 4. Download NodeMCU Flasher (Firmware Downloader)
+- Connect the nodeMCU board to PC (Maybem you need to install USB-to-Serial driver)
+- NodeMCU Flashing tool (select 32bit or 64bit according to your windwos) [https://github.com/nodemcu/nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher)
 
+## 5.Download Micropython firmware using Flashing tool
+- run 'ESP8266Flasher.exe'
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run1.png" width="400">
 
-## 4. NodeMCU Flasher (Firmware Downloader)
-- Download and install NodeMCU Flasher for Windows in [http://www.14core.com/downloads-2/](http://www.14core.com/downloads-2/)
+- Config -> Select firmware
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run2.png" width="400">
 
+- Select firware file (addres: 0x00000 [default setting])
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run4.png" width="400">
 
-## 5.ESPlorer (NodeMCU IDE)
-- Download and install ESPlorer in [http://www.14core.com/downloads-2/](http://www.14core.com/downloads-2/)
+- Click 'Flash(F)' --> Start download
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run5.png" width="400">
+
+- Reset the nodeMCU board after finishing download
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run7.png" width="400">
+
+## 6.Connect serial terminal
+- When you connect serial terminal, you can see following result.
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run10.png" width="400">
+
+## 7. Enjoy Python on embedded system (NodeMCU)
+- Now, you can use mircopyhon on NodeMCU.
+<img src="/00_ReadMe/nodeMCU_flashing_tool_run11.png" width="400">
