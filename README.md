@@ -5,35 +5,33 @@ This is my Micropython test code for nodeMCU(ESP8266-based)
 
 Followings are my board and firmware settings.
 
-## 1. Board: [nodeMCU(LoLin)](http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html)
+## 1. Board:
 
-![nodeMCU Image](/00_ReadMe/nodeMCU_LoLin_v3_small.png)
+[nodeMCU(LoLin)](http://www.banggood.com/V3-NodeMcu-Lua-WIFI-Development-Board-p-992733.html)
+
+<img src="/00_ReadMe/nodeMCU_LoLin_v3_small.png" width="200">
 
 ## 2. Pin Map
 ### nodeMCU Board & ESP8266 Pin Map
 
 ![nodeMCU Board Pin Map](./00_ReadMe/LoLin_V3_NodeMCU_Pinout.png)
 
-### ESP8266 & NodeMCU IO Map
+### Summary: NodeMCU Board, ESP8266 IO Map
 
-![ESP8266 & NodeMCU Pin Map](./00_ReadMe/ESP8266_Lua_Pin_Map.png)
-
-### Summary: WeMos D1 Board, ESP8266 & NodeMCU IO Map Map
-
-| WeMos D1 Pin     | Function          | ESP8266 Pin | NodeMCU |
-| ------- |:-------------------------:| -----:|-----:|
-| D0      | Rx (Serial)                 | GPIO3  | 9 |
-| D1      | Tx (Serial)                 | GPIO1  | 10 |
-| D2      | GPIO                        | GPIO16 | 0 |
-| D3(D15) | GPIO, SCL                   | GPIO5  | 1 |
-| D4(D14) | GPIO, SDA                   | GPIO4  | 2 |
-| D5(D13) | GPIO, SCK                   | GPIO14 | 5 |
-| D6(D12) | GPIO, MISO                  | GPIO12 | 6 |
-| D7(D11) | GPIO, MOSI                  | GPIO13 | 7 |
-| D8      | GPIO, Pull-up               | GPIO0  | 3 |
-| D9      | GPIO, Pull-up, Built-in LED | GPIO2  | 4 |
-| D10     | GPIO, Pull-down, SS         | GPIO15 | 8 |
-| A0      | Analog Input                | A0     | . |
+| nodeMCU Pin| ESP8266 Pin (GPIO)| Function |
+| ------- | -----:  |-----:|
+| D0      | GPIO 16  | GPIO |
+| D1      | GPIO 05  | GPIO |
+| D2      | GPIO 04  | GPIO |
+| D3      | GPIO 00  | GPIO, Flash |
+| D4      | GPIO 02  | GPIO, Built-in LED, TXD1|
+| D5      | GPIO 14  | GPIO |
+| D6      | GPIO 12  | GPIO |
+| D7      | GPIO 13  | GPIO, RXD2|
+| D8      | GPIO 15  | GPIO, TXD2|
+| D9      | GPIO 03  | GPIO, RXD0|
+| D10     | GPIO 01  | GPIO, TXD0|
+| A0      | A0       | Analog Input |
 
 ## 3. Firmware
 ### Download 1
