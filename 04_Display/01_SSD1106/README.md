@@ -7,9 +7,8 @@
 <img src="./SSD1106_OLED_SPI.png" width="400">
 
 #### comments
-1) SSD1106 and SH1106 are same.
-2) SSD1306 and SSS1106 are different.
-
+1. SSD1106 and SH1106 are same.
+2. SSD1306 and SSS1106 are different.
 
 ### Wire connection & SPI setting code
 
