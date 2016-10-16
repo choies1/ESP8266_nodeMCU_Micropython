@@ -7,6 +7,43 @@
 - SSD1306 and SSS1106 are different.
 <img src="./SSD1106_OLED_SPI.png" width="400">
 
+2. Wire connection & SPI setting code
+
+- Wire connection information
+
+| nodeMCU Pin| ESP8266 Pin (GPIO)| SSD1106 OLED Display |
+| --------|-------|-----|
+| D1      | GPIO 05  | RES (Reset) |
+| D2      | GPIO 04  | DC (DC)|
+| D5      | GPIO 14  | CLK(SPI_CLK) |
+| D7      | GPIO 13  | MOSI(SPI_MOSI)|
+| D8      | GPIO 15  | CS(SPI_CS)|
+
+- SPI setting code
+```Python
+class nodeMCU:
+    #nodeMCU: ESP8266 Chip
+    D0 = 16
+    D1 = 5
+    D2 = 4   
+    D3 = 0   #Flash button
+    D4 = 2   #built-in LED
+    D5 = 14  #SPI_CLK
+    D6 = 12  #SPI_MISO
+    D7 = 13  #SPI_MOSI
+    D8 = 15  #SPI_CS
+    D9 = 3   #RXD0
+    D10 = 1  #TXD0
+    A0 = 0   #ADC0
+
+#spi = SPI(mosi=Pin(13, Pin.OUT), sck=Pin(14, Pin.OUT))
+#display = ssd1106.SSD1106(spi=spi, dc=Pin(4, Pin.OUT), rst=Pin(5, Pin.OUT), cs=Pin(15, Pin.OUT))
+
+spi = SPI(mosi=Pin(nodeMCU.D7, Pin.OUT), sck=Pin(nodeMCU.D5, Pin.OUT))
+display = ssd1106.SSD1106(spi=spi, dc=Pin(nodeMCU.D2, Pin.OUT), rst=Pin(nodeMCU.D1, Pin.OUT), cs=Pin(nodeMCU.D8, Pin.OUT))
+```
+
+
 ## OLED Driver information
 1. Original driver version of SSD1106(SH1106) is as follows:
 - For ESP8266
