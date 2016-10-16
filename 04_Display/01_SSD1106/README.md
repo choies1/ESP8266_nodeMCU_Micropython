@@ -88,6 +88,7 @@ def init_display(self):
 https://hackaday.io/project/11660-various-micropython-libraries-and-drivers/log/41993-sh1106-oled-display)
 - [Original Code for SH1106](
 https://bitbucket.org/thesheep/micropython-ili9341/src/tip/sh1106.py?fileviewer=file-view-default)
+
 2. SSD1106 OLED Display Driver for pyboard
 
 - [Source code ](https://github.com/JonHylands/ssd1106)
