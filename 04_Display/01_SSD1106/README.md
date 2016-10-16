@@ -1,14 +1,17 @@
 # OLED Display Test
 
 ## H/W information
-1. [SSD1106 (SH1106) OLED Display: SPI version](https://www.aliexpress.com/item/1-3-inch-Blue-OLED-Module-SSD1106-Drive-IC-Compatible-with-SSD1306-IC-128-64-IIC/32655103082.html?spm=2114.13010608.0.0.z5nQe4)
-
-- comment: SSD1106 and SH1106 are same.
-- SSD1306 and SSS1106 are different.
+### SSD1106 (SH1106) OLED Display
+[SSD1106 (SH1106) OLED Display: SPI version](https://www.aliexpress.com/item/1-3-inch-Blue-OLED-Module-SSD1106-Drive-IC-Compatible-with-SSD1306-IC-128-64-IIC/32655103082.html?spm=2114.13010608.0.0.z5nQe4)
 
 <img src="./SSD1106_OLED_SPI.png" width="400">
 
-2. Wire connection & SPI setting code
+#### comments
+1) SSD1106 and SH1106 are same.
+2) SSD1306 and SSS1106 are different.
+
+
+### Wire connection & SPI setting code
 
 - Wire connection information
 
@@ -46,7 +49,7 @@ display = ssd1106.SSD1106(spi=spi, dc=Pin(nodeMCU.D2, Pin.OUT), rst=Pin(nodeMCU.
 
 
 ## OLED Driver information
-1. Original driver version of SSD1106(SH1106) is as follows:
+### Original code
 - For ESP8266
  [https://bitbucket.org/thesheep/micropython-ili9341/src/tip/sh1106.py?fileviewer=file-view-default](
 https://bitbucket.org/thesheep/micropython-ili9341/src/tip/sh1106.py?fileviewer=file-view-default)
@@ -54,8 +57,8 @@ https://bitbucket.org/thesheep/micropython-ili9341/src/tip/sh1106.py?fileviewer=
  [https://github.com/JonHylands/ssd1106](https://github.com/JonHylands/ssd1106)
 
 
-
-2. The function of 'init_display(self)' is added for the SSD1106 (SH1106) OLED Display
+### Added code
+-  The function of 'init_display(self)' is added for the SSD1106 (SH1106) OLED Display
 
 ```Python
 def init_display(self):
@@ -82,13 +85,11 @@ def init_display(self):
 ```
 
 ## Reference
-1. SH1106 OLED Display Driver for ESP8266
-
+### SH1106 OLED Display Driver for ESP8266
 - [SH1106 Driver](
 https://hackaday.io/project/11660-various-micropython-libraries-and-drivers/log/41993-sh1106-oled-display)
 - [Original Code for SH1106](
 https://bitbucket.org/thesheep/micropython-ili9341/src/tip/sh1106.py?fileviewer=file-view-default)
 
-2. SSD1106 OLED Display Driver for pyboard
-
+### SSD1106 OLED Display Driver for pyboard
 - [Source code ](https://github.com/JonHylands/ssd1106)
